@@ -22,6 +22,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
+        <module name="kotlin-javascript-example-special-characters-lister" />
         <module name="kotlin-javascript-hello-world" />
       </profile>
     </annotationProcessing>

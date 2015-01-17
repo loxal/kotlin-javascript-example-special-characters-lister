@@ -18,12 +18,12 @@
          xmlns="http://maven.apache.org/POM/4.0.0"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>net.loxal</groupId>
-    <artifactId>example</artifactId>
+    <groupId>net.loxal.example.kotlin</groupId>
+    <artifactId>special-characters-lister</artifactId>
     <version>1.0.0-RELEASE</version>
     <packaging>jar</packaging>
-    <name>Example</name>
-    <description>Kotlin Example Project</description>
+    <name>Special Characters Lister</name>
+    <description>Kotlin (JavaScript) Example Project</description>
 
     <properties>
         <kotlin.version>0.10.195</kotlin.version>

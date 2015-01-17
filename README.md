@@ -1,11 +1,16 @@
-# Kotlin JavaScript: ”Hello, world!”
-Kotlin (JavaScript) Template with a simple “Hello, World!” output written to the JavaScript Console
+# Kotlin JavaScript: Special Characters Lister
+A simple Kotlin (JavaScript) app that shows the Unicode characters for a specific decimal range.
 
 ## Getting Started
 
-1. Run the “Run Hello World” Configuration:
-	* Run > “Run Hello World”
+1. Run the “Serve through local web server” configuration:
+	* Run > “Serve through local web server”
+
+or, once you understand the Kotlin JavaScript transpilation process...
+
+1. Run the “Run Example” configuration:
+	* Run > “Run Example”
 2. Rebuild Project
 	* Build > Rebuild Project
-3. Reload the “index.html” app container page inside the browser *\<PROJECT_ROOT>/out/production/kotlin-javascript-hello-world/index.html*
+3. Reload the “index.html” app container page inside the browser */<PROJECT_ROOT>/out/production/<MODULE_NAME>/index.html*
 
