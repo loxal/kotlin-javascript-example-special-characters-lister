@@ -1,6 +1,9 @@
 # Kotlin JavaScript: Special Characters Lister
 A simple Kotlin (JavaScript) app that shows the Unicode characters for a specific decimal range.
 
+## Demo / Showcase / Tryout
+[And this is how it looks like...](http://www.loxal.net/proof-of-concept-incubator/character-viewer)
+
 ## Getting Started
 
 1. Run the “Serve through local web server” configuration:
