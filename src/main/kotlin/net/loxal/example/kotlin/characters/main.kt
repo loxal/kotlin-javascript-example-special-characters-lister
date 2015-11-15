@@ -16,7 +16,15 @@
 
 package net.loxal.example.kotlin.characters
 
-import kotlin.js.dom.html.*
+import org.w3c.dom.HTMLButtonElement
+import org.w3c.dom.HTMLDivElement
+import org.w3c.dom.HTMLInputElement
+import org.w3c.dom.HTMLOptionElement
+import org.w3c.dom.HTMLSelectElement
+import org.w3c.dom.HTMLTableColElement
+import org.w3c.dom.HTMLTableRowElement
+import org.w3c.dom.HTMLTableSectionElement
+import kotlin.browser.document
 import kotlin.dom.clear
 
 private val charCode = document.getElementById("pictogramId") as HTMLInputElement
@@ -101,13 +109,13 @@ private fun listChars(start: Int = 9900, end: Int = 9985) {
 
         charCol.textContent = char.toChar().toString()
 
-        charContainer.lastChild.appendChild(charCol)
+        charContainer.lastChild?.appendChild(charCol)
     }
 }
 
 private fun needsRow(): Boolean {
     return charContainer.lastChild == null ||
-            charContainer.lastChild.childNodes.length.mod(containerColumnWidth).equals(0)
+            charContainer.lastChild?.childNodes?.length?.mod(containerColumnWidth) == 0
 }
 
 private fun appendCharRow() {
